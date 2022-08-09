@@ -1,0 +1,140 @@
+:root {
+    --waite-color: #fff;
+    --gray-color: #808080;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(252 , 30% , 10%);
+    font-family: 'Oxanium', cursive; 
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    margin: 4px 5px;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+
+.crud {
+    color: var(--gray-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.input {
+    margin: 50px 60px;
+}
+
+
+.search {
+    margin: 50px 60px;
+}
+.price input {
+    width: 20%;
+}
+
+
+#total {
+    background-color: var(--gray-color);
+    padding: 9px 6px;
+    border-radius: 5px;
+    color: var(--waite-color);
+    transition: 0.3s;
+}
+
+#total:hover {
+    background-color: rgb(63, 62, 62);
+}
+
+#total::before {
+    content: "Total: ";
+}
+
+.btn {
+    width: 100%;
+    height: 30%;
+    border: none;
+    padding: 10px ;
+    margin: 0 1rem;
+    background-color: var(--gray-color);
+    border-radius: 5px;
+    color: var(--waite-color);
+    transition: 0.3s;
+    font-size: 18px;
+}
+.input .container .btn {
+margin-left: .4rem;
+margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(63, 62, 62);
+    letter-spacing: 1px;
+}
+
+.ser {
+    width: 90.5%;
+    height: 90%;
+    margin-left: 4rem;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 3rem ;
+}
+
+.table {
+    width: 90%;
+    height: 90%;
+    margin-left: 3.5rem;
+    text-align: center;
+    color: var(--waite-color);
+}
+
+
+
+.table th {
+    text-transform: uppercase;
+}
+
+.table th,
+td {
+    padding: 5px;
+}
+.del {
+    width: 90.5%;
+    height: 90%;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+
+}
+
